@@ -1,0 +1,190 @@
+<div class="main-content user-register">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 ml-auto mr-auto">
+        <div class="card card-signup text-center">
+          <form class="form" [formGroup]="register" (ngSubmit)="onSubmit()" >
+            <div class="card-header ">
+              <h4 class="card-title">Register</h4>
+            </div>
+            <div class="card-body ">
+                <div
+                  class="input-group"
+                  [ngClass]="{ 'input-group-focus': focus === true }"
+                >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Username"
+                    (focus)="focus = true"
+                    (blur)="focus = false"
+                    formControlName="userName"
+                    [ngClass]="{'is-invalid': submitted && f.userName.errors}"
+                  />
+                  <div *ngIf="submitted && f.userName.errors" class="invalid-feedback">
+                    <div *ngIf="f.userName.errors.required">Username is required</div>
+                  </div>
+                </div>
+                <div class="input-group"
+                     [ngClass]="{'input-group-focus': focus5 === true}">
+                  <input type="text"
+                          class="form-control"
+                         placeholder="First Name"
+                         (focus)="focus5=true"
+                         (blur)="focus5=false"
+                         formControlName="firstName"
+                         [ngClass]="{'is-invalid': submitted && f.firstName.errors}"
+                  />
+                  <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                    <div *ngIf="f.firstName.errors.required">First Name is required</div>
+                  </div>
+                </div>
+                <div class="input-group"
+                     [ngClass]="{'input-group-focus': focus6 === true}">
+                  <input type="text"
+                          class="form-control"
+                         placeholder="Last Name"
+                         (focus)="focus6=true"
+                         (blur)="focus6=false"
+                         formControlName="lastName"
+                         [ngClass]="{'is-invalid': submitted && f.lastName.errors}"
+                  />
+                  <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                    <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+                  </div>
+                </div>
+                <div
+                  class="input-group"
+                  [ngClass]="{ 'input-group-focus': focus2 === true }"
+                >
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="form-control"
+                    (focus)="focus2 = true"
+                    (blur)="focus2 = false"
+                    formControlName="userEmail"
+                    [ngClass]="{'is-invalid': submitted && f.userEmail.errors}"
+                  />
+                  <div *ngIf="submitted && f.userEmail.errors" class="invalid-feedback">
+                    <div *ngIf="f.userEmail.errors.required">Email is required</div>
+                    <div *ngIf="f.userEmail.errors.email">Email must be a valid email address</div>
+                  </div>
+                </div>
+                <div
+                        class="input-group"
+                        [ngClass]="{ 'input-group-focus': focus7 === true }"
+                >
+                  <input
+                          type="text"
+                          placeholder="Phone Number"
+                          (keypress)="keyPress($event)" minlength="10" maxlength="10"
+                          class="form-control"
+                          (focus)="focus7 = true"
+                          (blur)="focus7 = false"
+                          formControlName="phoneNumber"
+                          [ngClass]="{'is-invalid': submitted && f.phoneNumber.errors}"
+                  />
+                  <div *ngIf="submitted && f.phoneNumber.errors" class="invalid-feedback">
+                    <div *ngIf="f.phoneNumber.errors.required">Phone Number is required</div>
+                  </div>
+                </div>
+                <div
+                  class="input-group"
+                  [ngClass]="{ 'input-group-focus': focus3 === true }"
+                >
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Password"
+                    (focus)="focus3 = true"
+                    (blur)="focus3 = false"
+                    formControlName="password"
+                    [ngClass]="{'is-invalid': submitted && f.password.errors}"
+                  />
+                  <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                    <div *ngIf="f.password.errors.required">Password is required</div>
+                    <div *ngIf="f.password.errors.minlength">Password must be at least 6 characters</div>
+                  </div>
+                </div>
+                <div
+                        class="input-group"
+                        [ngClass]="{ 'input-group-focus': focus4 === true }"
+                >
+                  <input
+                          type="password"
+                          class="form-control"
+                          placeholder="Repeat Password"
+                          (focus)="focus4 = true"
+                          (blur)="focus4 = false"
+                          formControlName="confirmPassword"
+                          [ngClass]="{'is-invalid': submitted && f.confirmPassword.errors}"
+                  />
+                  <div *ngIf="submitted && f.confirmPassword.errors" class="invalid-feedback">
+                    <div *ngIf="f.confirmPassword.errors.required">Reset Password is required</div>
+                    <div *ngIf="f.confirmPassword.errors.mustMatch">Password must match</div>
+                  </div>
+                </div>
+                <div class="input-group"
+                    [ngClass]="{'input-group-focus': focus9===true}">
+                    <select formControlName="role"
+                            class="form-control"
+                            (focus)="focus9 = true"
+                            (blur)="focus9 = false"
+                            [ngClass]="{ 'is-invalid': submitted && f.role.errors }">
+
+                        <option value="admin">admin</option>
+                        <option value="host">host</option>
+                        <option value="tenant">tenant</option>
+                        <option value="anonymous">anonymous</option>
+                    </select>
+                    <div *ngIf="submitted && f.role.errors" class="invalid-feedback">
+                        <div *ngIf="f.role.errors.required">Role is required</div>
+                    </div>
+                </div>
+                <div class="form-check text-left">
+                  <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="acceptTerms"
+                          formControlName="acceptTerms"
+                          [ngClass]="{'is-invalid': submitted && f.acceptTerms.errors}"
+
+                  />
+
+                    <label for="acceptTerms" class="form-check-sign"> I agree to the <a href="#something">VitualChoppingBoard User Agreement</a> and
+                    <a href="#something">Privacy Policy</a>.</label>
+                  <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">Accepts Ts & Cs is required</div>
+                </div>
+            </div>
+
+            <div class="card-footer ">
+              <button href="#pablo" class="btn btn-primary btn-round btn-lg btn-block mb-3" type="submit">Register</button>
+              <p>Or join with</p>
+              <div class="social">
+                <div>
+                  <button class="btn   btn-facebook">
+                    <i class="fab fa-facebook-f"></i>&nbsp; facebook
+                  </button>
+                </div>
+                <div>
+                  <button class="btn   btn-google">
+                    <i class="fab fa-google"></i>&nbsp; google
+                  </button>
+                </div>
+              </div>
+              <br>
+              <div class="pull-left">
+                <p>Already have an account? &nbsp;
+                  <a (click)="user_login()" class="link footer-link">Login here</a>
+                </p>
+              </div>
+              <div class="pull-right">
+              </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>
+</div>

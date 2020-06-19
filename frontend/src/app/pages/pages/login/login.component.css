@@ -1,0 +1,48 @@
+.user-login .logo-container>img {
+    width: 83px;
+    height: 85px;
+    margin-bottom: 20px;
+    border: 2px solid #2ba594;
+    border-radius: 50%;
+}
+.user-login .social {
+    display: flex;
+    justify-content: space-around;
+}
+.user-login .card-body p {
+    text-align: right;
+}
+.user-login .card-body p>a {
+    cursor: pointer;
+    color: #f96332;
+}
+.user-login .card-footer .pull-left {
+    width: 100%;
+}
+.user-login .card-footer .pull-left>p {
+    font-size: 11px;
+}
+.user-login .card-footer .pull-left>p>a {
+    cursor: pointer;
+    color: #f96332;
+    font-size: 11px;
+}
+
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+    border-top-right-radius: 29px!important;
+    border-bottom-right-radius: 29px!important;
+}
+
+.ml-auto {
+    /* above styles */
+    animation: animation-name 1.9s ease-out forwards;
+}
+
+@keyframes animation-name {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}

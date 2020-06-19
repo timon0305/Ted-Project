@@ -1,0 +1,11 @@
+
+.navbar_social {
+    display: flex;
+    height: 38px;
+}
+.navbar_social button {
+    margin: 0 20px 0 20px;
+}
+nav li a {
+    cursor: pointer;
+}

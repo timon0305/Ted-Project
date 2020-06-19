@@ -1,0 +1,82 @@
+<div class="main-content user-login " >
+  <div class="container">
+    <div class="col-md-4 col-sm-8 ml-auto mr-auto" [@simpleFadeAnimation]="'in'">
+      <form class="form" [formGroup]="login" (ngSubmit)="onSubmit()" action="">
+        <div class="card card-signup text-center animated" data-wow-delay="0.3s" style="visibility: visible; animation-name: fadeInRight; animation-delay: 0.3s;">
+          <div class="card-header ">
+            <div class="logo-container">
+              <img src="assets/logo/effie.PNG" alt="" />
+            </div>
+          </div>
+          <div class="card-body ">
+              <div
+                      class="input-group"
+                      [ngClass]="{ 'input-group-focus': focus === true }"
+              >
+                <input
+                        type="email"
+                        placeholder="Email"
+                        class="form-control"
+                        (focus)="focus = true"
+                        (blur)="focus = false"
+                        formControlName="userEmail"
+                        [ngClass]="{'is-invalid': submitted && f.userEmail.errors}"
+                />
+                <div *ngIf="submitted && f.userEmail.errors" class="invalid-feedback">
+                  <div *ngIf="f.userEmail.errors.required">Email is required</div>
+                  <div *ngIf="f.userEmail.errors.email">Email must be a valid email address</div>
+                </div>
+              </div>
+              <div
+                      class="input-group"
+                      [ngClass]="{ 'input-group-focus': focus2 === true }"
+              >
+                <input
+                        type="password"
+                        class="form-control"
+                        placeholder="Password"
+                        (focus)="focus2 = true"
+                        (blur)="focus2 = false"
+                        formControlName="password"
+                        [ngClass]="{'is-invalid': submitted && f.password.errors}"
+                />
+                <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                  <div *ngIf="f.password.errors.required">Password is required</div>
+                  <div *ngIf="f.password.errors.minlength">Password must be at least 6 characters</div>
+                </div>
+              </div>
+              <p><a >Forgot Password?</a></p>
+          </div>
+          <div class="card-footer ">
+            <button type="submit" href="#pablo"
+              class="btn btn-primary btn-round btn-lg btn-block mb-3"
+              >Login</button
+            >
+            <p>Or join with</p>
+            <div class="social">
+              <div>
+                <button class="btn  btn-facebook">
+                  <i class="fab fa-facebook-square"></i>&nbsp; facebook
+                </button>
+              </div>
+              <div>
+                <button class="btn btn-google">
+                  <i class="fab fa-google-plus-g"></i>&nbsp; google
+                </button>
+              </div>
+            </div>
+            <br>
+            <div class="pull-left">
+              <p>Don't you have an account? &nbsp;
+                <a (click)="user_register()" class="link footer-link"> Join here</a>
+              </p>
+            </div>
+            <div class="pull-right">
+
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

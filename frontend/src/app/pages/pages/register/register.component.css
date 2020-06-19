@@ -1,0 +1,33 @@
+.user-register .social {
+    display: flex;
+    justify-content: space-around;
+}
+.user-register .pull-left {
+    width: 100%;
+}
+.user-register .pull-left>p>a {
+    font-size: 11px;
+    color: #f96332;
+    cursor: pointer;
+}
+.user-register .pull-left>p {
+    font-size: 11px;
+}
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+    border-top-right-radius: 29px!important;
+    border-bottom-right-radius: 29px!important;
+}
+
+.ml-auto {
+    /* above styles */
+    animation: animation-name 1.9s ease-out forwards;
+}
+
+@keyframes animation-name {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
