@@ -215,7 +215,7 @@
   }
 
   &.navbar-transparent {
-    background-color: $transparent-bg;
+    background-color: $transparent-bg !important;
     box-shadow: none;
     color: $white-color;
   }

@@ -35,14 +35,20 @@ export class AuthService{
     return this.http.post(BASE_URL + 'userRegister', user)
   }
 
+  profile(fileToUpload: File): Observable<Object> {
+      const endPoint = BASE_URL + 'upload';
+      const formData : FormData = new FormData();
+      formData.append('file', fileToUpload, fileToUpload.name);
+      return this.http.post(endPoint, formData)
+  }
+
   login(payload): Observable<any> {
     return this.http.post(BASE_URL + 'userLogin', payload)
         .pipe(
             map(res => {
               if (res['success'] === true) {
                 localStorage.setItem('token', res['token']);
-                localStorage.setItem('userName', res['data'].userName);
-                localStorage.setItem('role', res['data'].role);
+                localStorage.setItem('fullName', res['data'].username);
               }
               return res;
             }
@@ -50,15 +56,7 @@ export class AuthService{
         )
   }
 
-  getUser(role): Observable<any> {
-      return this.http.post(BASE_URL + 'getAllUser', role)
-  }
-
-  editUser(payload): Observable<any> {
-      return this.http.post(BASE_URL + 'editUser', payload)
-  }
-
-  deleteUser(payload): Observable<any> {
-      return this.http.post(BASE_URL + 'deleteUser', payload)
+  getAllUser(): Observable<any> {
+      return this.http.get(BASE_URL + 'getAllUser')
   }
 }

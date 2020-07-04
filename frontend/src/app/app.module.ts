@@ -10,16 +10,11 @@ import { AdminLayoutComponent } from "./layouts/admin-layout/admin-layout.compon
 import { AuthLayoutComponent } from "./layouts/auth-layout/auth-layout.component";
 
 import { AppRoutes } from "./app.routing";
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import {BrowserModule} from '@angular/platform-browser';
 
 @NgModule({
   declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent],
   imports: [
     BrowserAnimationsModule,
-    BrowserModule,
-    FormsModule,
-    ReactiveFormsModule,
     RouterModule.forRoot(AppRoutes,{
       useHash: true
     }),

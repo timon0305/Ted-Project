@@ -2,394 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="731b5215-791b-435d-b67c-494ed7ff916c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/user.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Router/user.router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/user.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/e2e/tsconfig.e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/app.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/components.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/components.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/file-input/file-input.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/file-input/file-input.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/file-input/file-input.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/file-input/file-input.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/fixed-plugin/fixed-plugin.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/fixed-plugin/fixed-plugin.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/fixed-plugin/fixed-plugin.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/fixed-plugin/fixed-plugin.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/footer/footer.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/footer/footer.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/footer/footer.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/footer/footer.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/image-upload/image-upload.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/image-upload/image-upload.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/image-upload/image-upload.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/image-upload/image-upload.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/modal/modal.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/modal/modal.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/modal/modal.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/modal/modal.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/picture-upload/picture-upload.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/picture-upload/picture-upload.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/picture-upload/picture-upload.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/picture-upload/picture-upload.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/sidebar/sidebar.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/sidebar/sidebar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/vector-map/vector-map.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/vector-map/vector-map.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/vector-map/vector-map.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/vector-map/vector-map.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/components/vector-map/vector-map.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/actions/auth.actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/guards/auth.guard.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/guards/auth.guard.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/model/user.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/reducers/auth.reducers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/selectors/auth.selectors.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/service/auth.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/service/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/core/reducers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/admin-layout/admin-layout.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/admin-layout/admin-layout.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/admin-layout/admin-layout.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/admin-layout/admin-layout.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/calendar/calendar.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/calendar/calendar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/calendar/calendar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/calendar/calendar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/calendar/calendar.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/calendar/calendar.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/calendar/calendar.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/charts/charts.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/charts/charts.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/charts/charts.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/charts/charts.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/charts/charts.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/charts/charts.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/charts/charts.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/buttons/buttons.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/buttons/buttons.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/buttons/buttons.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/buttons/buttons.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/components.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/components.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/components.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/grid-system/grid-system.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/grid-system/grid-system.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/grid-system/grid-system.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/grid-system/grid-system.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/icons/icons.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/icons/icons.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/icons/icons.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/icons/icons.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/notifications/notifications.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/notifications/notifications.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/notifications/notifications.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/notifications/notifications.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/panels/panels.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/panels/panels.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/panels/panels.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/panels/panels.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/sweet-alert/sweet-alert.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/sweet-alert/sweet-alert.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/sweet-alert/sweet-alert.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/sweet-alert/sweet-alert.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/typography/typography.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/typography/typography.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/typography/typography.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/components/typography/typography.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/extended-forms/extended-forms.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/extended-forms/extended-forms.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/extended-forms/extended-forms.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/extended-forms/extended-forms.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/forms.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/forms.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/forms.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/regular-forms/regular-forms.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/regular-forms/regular-forms.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/regular-forms/regular-forms.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/regular-forms/regular-forms.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/validation-forms/password-validator.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/validation-forms/validation-forms.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/validation-forms/validation-forms.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/validation-forms/validation-forms.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/validation-forms/validation-forms.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/wizard/wizard.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/wizard/wizard.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/wizard/wizard.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/forms/wizard/wizard.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/full-screen-maps/full-screen-maps.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/full-screen-maps/full-screen-maps.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/full-screen-maps/full-screen-maps.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/full-screen-maps/full-screen-maps.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/google-maps/google-maps.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/google-maps/google-maps.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/google-maps/google-maps.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/google-maps/google-maps.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/maps.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/maps.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/maps.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/vector-map/vector-map.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/vector-map/vector-map.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/vector-map/vector-map.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/maps/vector-map/vector-map.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/lock/lock.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/lock/lock.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/lock/lock.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/lock/lock.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pages.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pages.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pages.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pricing/pricing.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pricing/pricing.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pricing/pricing.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pricing/pricing.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/_helpers/must-match.validator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/user-profile/user-profile.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/user-profile/user-profile.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/user-profile/user-profile.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/user-profile/user-profile.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/user-profile/user-profile.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/user-profile/user-profile.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/user-profile/user-profile.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/extended-tables/extended-tables.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/extended-tables/extended-tables.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/extended-tables/extended-tables.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/extended-tables/extended-tables.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/ngx-datatable/ngx-datatable.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/ngx-datatable/ngx-datatable.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/ngx-datatable/ngx-datatable.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/ngx-datatable/ngx-datatable.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/regular-tables/regular-tables.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/regular-tables/regular-tables.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/regular-tables/regular-tables.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/regular-tables/regular-tables.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/tables.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/tables.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/tables/tables.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/widgets/widgets.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/widgets/widgets.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/widgets/widgets.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/widgets/widgets.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/widgets/widgets.module.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/widgets/widgets.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/app/pages/widgets/widgets.routing.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/background/.picasa.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/background/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/background/home-page4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/demo/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/demo/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/fonts/nucleo-license.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/fonts/nucleo-outline.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/fonts/nucleo-outline.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/fonts/nucleo-outline.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/fonts/nucleo-outline.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/AU.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/BR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/DE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/GB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/RO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/US.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/angular2-logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/balmain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/bg13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/bg14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/bg15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/bg16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/bg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/bg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/default-avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/emilyz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/image_placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/james.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/mike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/now-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/placeholder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/prada.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/img/saint-laurent.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/logo/effie.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/logo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_checkboxes-radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_example-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_fixed-plugin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_footers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_info-areas.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_media-queries.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_nucleo-outline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_page-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_pills.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_popups.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_rtl.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_sections.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_sidebar-and-main-panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_social-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_timeline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_angular-differences.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_example-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_pills.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_sidebar-and-main-panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/cards/_card-plain.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/cards/_card-wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/plugins/_plugin-angular-archwizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/plugins/_plugin-angular2-multiselect-dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/plugins/_plugin-ngbDatepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/plugins/_plugin-ngx-chips.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/plugins/_plugin-ngx-datatable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/plugins/_plugin-ngx-toastr.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/plugins/_plugin-nouislider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/angular/plugins/_plugin-sweetalert2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-chart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-collapse.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-contributions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-info-area.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-lock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-plain.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-signup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-stats-mini.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-stats.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-subcategories.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/cards/_card-wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_page-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_social-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_tags.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_transparency.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/mixins/_wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-animate-bootstrap-notify.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-bootstrap-select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-bootstrap-switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-card-wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-datatables.net.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-datetimepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-fullcalendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-jasny-fileupload.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-jquery.jvectormap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-nouislider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-perfect-scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-sweetalert2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/plugins/_plugin-tagsinput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/src/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/tslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../frontend/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tasks/Description.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Router/user.router.js" beforeDir="false" afterPath="$PROJECT_DIR$/Router/user.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/Service/user.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/app.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/app.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/components.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/components.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/fixed-plugin/fixed-plugin.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/fixed-plugin/fixed-plugin.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/components/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/components/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/core/auth/service/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/core/auth/service/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/layouts/admin-layout/admin-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/admin-layout/admin-layout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/layouts/admin-layout/admin-layout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/admin-layout/admin-layout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/layouts/auth-layout/auth-layout.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/dashboard/dashboard.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/lock/lock.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/lock/lock.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/lock/lock.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/lock/lock.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pages.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pages.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pages.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pages.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pricing/pricing.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pricing/pricing.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pricing/pricing.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/pricing/pricing.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/app/pages/pages/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.module.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/app/pages/pages/timeline/timeline.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/background/.picasa.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/background/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/background/home-page4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/logo/effie.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/logo/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/assets/scss/now-ui-dashboard/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/yarn.lock" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -435,27 +110,46 @@
         </counts>
       </usages-collector>
     </session>
-    <session id="-2005435096">
+    <session id="-1352283630">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1802" />
+          <entry key="PLAIN_TEXT" value="60" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2005435096">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="981" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
@@ -466,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="132">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -475,17 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Router/user.router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="176">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -502,26 +187,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="462">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/mysql2/lib/commands/query.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Controller/user.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+            <state relative-caret-position="354">
+              <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -529,17 +205,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Config/database.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="88">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Service/user.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+            <state relative-caret-position="200">
+              <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Router/user.router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -557,8 +242,7 @@
     <findStrings>
       <find>conso</find>
       <find>Inval</find>
-      <find>consol</find>
-      <find>console</find>
+      <find>sign</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -568,13 +252,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Config/database.js" />
-        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Controller/middleware.js" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/Router/user.router.js" />
-        <option value="$PROJECT_DIR$/Service/user.service.js" />
         <option value="$PROJECT_DIR$/Controller/user.controller.js" />
+        <option value="$PROJECT_DIR$/Service/user.service.js" />
       </list>
     </option>
   </component>
@@ -592,11 +276,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="11" />
-    <option name="width" value="1302" />
-    <option name="height" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -620,17 +304,7 @@
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -641,7 +315,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/now-ui-dashboard-pro-angular-v1.1.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -664,23 +338,6 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -699,28 +356,39 @@
       <workItem from="1590519471309" duration="990000" />
       <workItem from="1590707233815" duration="1282000" />
       <workItem from="1591554922178" duration="14000" />
-      <workItem from="1592358806415" duration="424000" />
-      <workItem from="1592380894168" duration="2128000" />
-      <workItem from="1592400774554" duration="5599000" />
-      <workItem from="1592413005723" duration="1777000" />
-      <workItem from="1592433883179" duration="2050000" />
-      <workItem from="1592493967775" duration="5163000" />
+      <workItem from="1592926773054" duration="3004000" />
+      <workItem from="1593008451497" duration="1331000" />
+      <workItem from="1593055613300" duration="615000" />
+      <workItem from="1593100570503" duration="17000" />
+      <workItem from="1593139983993" duration="325000" />
+      <workItem from="1593247626293" duration="4897000" />
+      <workItem from="1593283738596" duration="2041000" />
+      <workItem from="1593419267509" duration="1238000" />
+      <workItem from="1593442889347" duration="40000" />
+      <workItem from="1593442936412" duration="10000" />
+      <workItem from="1593451005212" duration="632000" />
+      <workItem from="1593498325261" duration="170000" />
+      <workItem from="1593536536898" duration="1188000" />
+      <workItem from="1593543926638" duration="1224000" />
+      <workItem from="1593807173697" duration="8121000" />
+      <workItem from="1593849765130" duration="53000" />
+      <workItem from="1593849948619" duration="4597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62179000" />
+    <option name="totallyTimeSpent" value="74541000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="11" width="1302" height="1057" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19620253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13224447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -728,7 +396,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32666665" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31573159" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -737,6 +405,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -770,20 +441,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bcryptjs/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Australlia/Recipe/backend/package.json">
+    <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="66">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bcryptjs/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/middleware.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -792,52 +458,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mysql2/lib/commands/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="15" selection-start-line="69" selection-start-column="15" selection-end-line="69" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Config/database.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="88">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="132">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Router/user.router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/user.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+        <state relative-caret-position="286">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Service/user.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="113" column="17" lean-forward="true" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+        <state relative-caret-position="200">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/user.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
         </state>
       </provider>
     </entry>

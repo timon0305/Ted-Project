@@ -1,7 +1,7 @@
 import { Routes } from "@angular/router";
 
 import { AdminLayoutComponent } from "./layouts/admin-layout/admin-layout.component";
-import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component';
+import { AuthLayoutComponent } from "./layouts/auth-layout/auth-layout.component";
 import {AuthGuard} from './core/auth/guards/auth.guard';
 
 export const AppRoutes: Routes = [
@@ -53,10 +53,6 @@ export const AppRoutes: Routes = [
         loadChildren:
           "./pages/pages/user-profile/user-profile.module#UserModule"
       },
-      {
-        path: "",
-        loadChildren: "./pages/pages/timeline/timeline.module#TimelineModule"
-      }
     ]
   },
   {

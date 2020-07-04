@@ -14,7 +14,7 @@ import {NgxDatatableModule} from '@swimlane/ngx-datatable';
   imports: [
     CommonModule,
     NgbModule,
-      NgxDatatableModule,
+    NgxDatatableModule,
     RouterModule.forChild(DashboardRoutes),
     ComponentsModule,
     ChartsModule

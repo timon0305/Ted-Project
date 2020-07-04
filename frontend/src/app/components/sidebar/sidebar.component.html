@@ -5,8 +5,8 @@
         <img src="./assets/img/angular2-logo-white.png" />
       </div>
     </a>
-    <a href="#" class="simple-text logo-normal">
-      {{userName}}
+    <a href="https://www.creative-tim.com" class="simple-text logo-normal">
+      Creative Tim
     </a>
     <div class="navbar-minimize">
       <button
@@ -24,7 +24,42 @@
     </div>
   </div>
   <div class="sidebar-wrapper">
-
+    <div class="user">
+      <div class="photo"><img src="../assets/img/james.jpg" /></div>
+      <div class="info">
+        <a
+          data-toggle="collapse"
+          href="#collapseExample"
+          (click)="isCollapsed = !isCollapsed; myFunc($event)"
+          [attr.aria-expanded]="!isCollapsed"
+          aria-controls="collapseExample"
+        >
+          <span> James Amos <b class="caret"></b> </span>
+        </a>
+        <div class="collapse" id="collapseExample" [ngbCollapse]="isCollapsed">
+          <ul class="nav">
+            <li>
+              <a href="javascript:void(0)" >
+                <span class="sidebar-mini-icon">MP</span>
+                <span class="sidebar-normal">My Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <span class="sidebar-mini-icon">EP</span>
+                <span class="sidebar-normal">Edit Profile</span>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <span class="sidebar-mini-icon">S</span>
+                <span class="sidebar-normal">Settings</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <ul class="nav">
       <li routerLinkActive="active" *ngFor="let menuitem of menuItems">
         <!--If is a single link-->

@@ -1,22 +1,9 @@
 const pool = require('../Config/database');
 
 module.exports = {
-    sFindUserName: (userName, callback) => {
-        pool.query(
-            `select * from users where userName = ?`,
-            [userName],
-            (err, results) => {
-                if (err) {
-                    callback(err);
-                }
-                return callback(null, results[0]);
-            }
-        )
-    },
-
     sFindUserEmail: (userEmail, callback) => {
         pool.query(
-            `select * from users where userEmail = ?`,
+            `select * from users where email = ?`,
             [userEmail],
             (err, results) => {
                 if (err) {
@@ -29,16 +16,15 @@ module.exports = {
 
     sCreateUser: (data, callback) => {
         pool.query(
-            `insert into users(userName, firstName, lastName, userEmail, password, role, phoneNumber, active) 
-            values(?, ?, ?, ?, ?, ?, ?, ?)`,
+            `insert into users(fullname, username, email, password, role, photo, telephone, active) values(?, ?, ?, ?,?,?, ?, ?)`,
             [
+                data.fullName,
                 data.userName,
-                data.firstName,
-                data.lastName,
                 data.userEmail,
                 data.password,
                 data.role,
-                data.phoneNumber,
+                data.photo,
+                data.telephone,
                 data.active,
             ],
             (error, result) => {
@@ -52,7 +38,7 @@ module.exports = {
 
     sGetUserByEmail: (userEmail, callback) => {
         pool.query(
-            `select * from users where userEmail = ?`,
+            `select * from users where email = ?`,
             [userEmail],
             (err, result) => {
                 if (err) {
@@ -63,7 +49,7 @@ module.exports = {
         )
     },
 
-    sGetAllUser: (role, callback) => {
+    sGetAllUser: (data, callback) => {
         pool.query(
             `select * from users`,
             (err, result) => {
@@ -73,48 +59,5 @@ module.exports = {
                 return callback(null, result)
             }
         )
-    },
-
-    sEditUser: (data, callback) => {
-        const id = data.id;
-        const active = data.active;
-        if (active === '1') {
-            pool.query(
-                `update users set active = 0 where id = ?`,
-                [id],
-                (error, result) => {
-                    if (error) {
-                        return callback(error)
-                    }
-                    return callback(null, result)
-                }
-            )
-        } else {
-            pool.query(
-                `update users set active = 1 where id = ?`,
-                [id],
-                (error, result) => {
-                    if (error) {
-                        return callback(error)
-                    }
-                    return callback(null, result)
-                }
-            )
-        }
-
-    },
-
-    sDeleteUser: (id, callback) => {
-        pool.query(
-            `delete from users where id = ?`,
-            [id],
-            (error, results) => {
-                if (error) {
-                    return callback(error)
-                }
-                return callback(null, results)
-            }
-        )
     }
-
 };

@@ -19,17 +19,14 @@ export class NavbarComponent implements OnInit {
   constructor(
       location: Location,
       private element: ElementRef,
-      private router: Router,
-      private _router: Router) {
+      private router: Router) {
     this.location = location;
         this.sidebarVisible = false;
   }
 
-  userName: string;
-  role: string;
+  fullName: string;
   ngOnInit() {
-    this.userName = localStorage.getItem('userName');
-    this.role = localStorage.getItem('role');
+      this.fullName = localStorage.getItem('fullName');
 
     this.listTitles = ROUTES.filter(listTitle => listTitle);
     const navbar: HTMLElement = this.element.nativeElement;
@@ -62,7 +59,7 @@ export class NavbarComponent implements OnInit {
               }
           }
       }
-      return 'Dashboard';
+      return 'EFFIE ADMIN';
   }
   collapse(){
     this.isCollapsed = !this.isCollapsed;
@@ -157,6 +154,6 @@ export class NavbarComponent implements OnInit {
 
   logout() {
       localStorage.clear();
-      this._router.navigate([''])
+      this.router.navigate(['/'])
   }
 }

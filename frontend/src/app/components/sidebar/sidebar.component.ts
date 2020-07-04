@@ -3,7 +3,7 @@ import { ToastrService } from "ngx-toastr";
 
 var misc:any ={
     sidebar_mini_active: true
-};
+}
 
 export interface RouteInfo {
   path: string;
@@ -25,30 +25,103 @@ export interface ChildrenItems {
 
 //Menu Items
 export const ROUTES: RouteInfo[] = [
-  // {
-  //   path: "/app/dashboard",
-  //   title: "User Controller",
-  //   type: "link",
-  //   icontype: "design_app"
-  // },
-  // {
-  //   path: "/app/widgets",
-  //   title: "Widgets",
-  //   type: "link",
-  //   icontype: "objects_diamond"
-  // },
-  // {
-  //   path: "/app/charts",
-  //   title: "Charts",
-  //   type: "link",
-  //   icontype: "business_chart-pie-36"
-  // },
-  // {
-  //   path: "/app/calendar",
-  //   title: "Calendar",
-  //   type: "link",
-  //   icontype: "media-1_album"
-  // }
+  {
+    path: "/dashboard",
+    title: "Dashboard",
+    type: "link",
+    icontype: "design_app"
+  },
+  {
+    path: "/pages",
+    title: "Pages",
+    type: "sub",
+    icontype: "design_image",
+    collapse: "pages",
+    isCollapsed: true,
+    children: [
+      { path: "pricing", title: "Pricing Page", ab: "PP" },
+      { path: "timeline", title: "Timeline Page", ab: "TP" },
+      { path: "login", title: "Login Page", ab: "LP" },
+      { path: "register", title: "Register Page", ab: "RP" },
+      { path: "lock", title: "Lock Screen Page", ab: "LSP" },
+      { path: "user", title: "User Page", ab: "UP" }
+    ]
+  },
+  {
+    path: "/components",
+    title: "Components",
+    type: "sub",
+    icontype: "education_atom",
+    collapse: "components",
+    isCollapsed: true,
+    children: [
+      { path: "buttons", title: "Buttons", ab: "B" },
+      { path: "grid", title: "Grid System", ab: "GS" },
+      { path: "panels", title: "Panels", ab: "P" },
+      { path: "sweet-alert", title: "Sweet Alert", ab: "SA" },
+      { path: "notifications", title: "Notifications", ab: "N" },
+      { path: "icons", title: "Icons", ab: "I" },
+      { path: "typography", title: "Typography", ab: "T" }
+    ]
+  },
+  {
+    path: "/forms",
+    title: "Forms",
+    type: "sub",
+    icontype: "files_single-copy-04",
+    collapse: "forms",
+    isCollapsed: true,
+    children: [
+      { path: "regular", title: "Regular Forms", ab: "RF" },
+      { path: "extended", title: "Extended Forms", ab: "EF" },
+      { path: "validation", title: "Validation Forms", ab: "VF" },
+      { path: "wizard", title: "Wizard", ab: "W" }
+    ]
+  },
+  {
+    path: "/tables",
+    title: "Tables",
+    type: "sub",
+    icontype: "design_bullet-list-67",
+    collapse: "tables",
+    isCollapsed: true,
+    children: [
+      { path: "regular", title: "Regular Tables", ab: "RT" },
+      { path: "extended", title: "Extended Tables", ab: "ET" },
+      { path: "ngx-datatable", title: "Ngx Datatable", ab: "ND" }
+    ]
+  },
+  {
+    path: "/maps",
+    title: "Maps",
+    type: "sub",
+    icontype: "location_pin",
+    collapse: "maps",
+    isCollapsed: true,
+    children: [
+      { path: "google", title: "Google Maps", ab: "GM" },
+      { path: "fullscreen", title: "Full Screen Map", ab: "FSM" },
+      { path: "vector", title: "Vector Map", ab: "VM" }
+    ]
+  },
+  {
+    path: "/widgets",
+    title: "Widgets",
+    type: "link",
+    icontype: "objects_diamond"
+  },
+  {
+    path: "/charts",
+    title: "Charts",
+    type: "link",
+    icontype: "business_chart-pie-36"
+  },
+  {
+    path: "/calendar",
+    title: "Calendar",
+    type: "link",
+    icontype: "media-1_album"
+  }
 ];
 
 @Component({
@@ -62,11 +135,7 @@ export class SidebarComponent implements OnInit {
 
   constructor(private toastr: ToastrService) {}
 
-  userName: string;
-  role: string;
   ngOnInit() {
-    this.userName = localStorage.getItem('userName');
-    this.role = localStorage.getItem('role');
     this.menuItems = ROUTES.filter(menuItem => menuItem);
   }
   sleep(milliseconds) {
@@ -81,8 +150,10 @@ export class SidebarComponent implements OnInit {
     event.preventDefault();
     event.stopPropagation();
     this.sleep(10);
-    if (menuitem.isCollapsing === '') {
+    if (menuitem.isCollapsing === undefined) {
       menuitem.isCollapsing = true;
+
+      // menuitem.isCollapsed = !menuitem.isCollapsed;
 
       var element = event.target;
       while (

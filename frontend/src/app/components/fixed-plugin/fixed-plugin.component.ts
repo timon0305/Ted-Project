@@ -9,7 +9,7 @@ import { ToastrService } from "ngx-toastr";
 })
 export class FixedPluginComponent implements OnInit {
 
-  public sidebarColor: string = "orange";
+  public sidebarColor: string = "red";
   public state: boolean = true;
 
   constructor(config: NgbDropdownConfig, public toastr: ToastrService) {
